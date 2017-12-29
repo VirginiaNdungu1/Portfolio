@@ -1,0 +1,261 @@
+/*body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body, h1, h2, h3 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+a, .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color: #566573;
+}
+
+a:hover, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover {
+  color: #EC7063;
+}
+
+.topnav {
+  font-size: 14px;
+}
+
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: teal;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: #687430;
+}
+
+.navbar-default {
+  background-color: #34495E;
+  background: transparent;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: teal;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #EBEDEF;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}*/
+
+
+/*Option One*/
+
+.banner {
+  height: 100%;
+  background: black;
+  background-image: url('../images/my_workspace.jpeg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*min-height: 200px;*/
+}
+
+.banner .row {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.opaque-navbar {
+  background-color: transparent;
+  /*background-color: rgba(0, 0, 0, 0.5);
+  Transparent=rgba(0, 0, 0, 0) / Translucent=(0, 0, 0, 0.5) height: 60px;*/
+  border-bottom: 0px;
+  transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+  background-color: black;
+  opacity: 0.85;
+  /*color: white;*/
+  height: 60px;
+  transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+  background-color: black;
+}
+
+@media (max-width: 992px) {
+  body {
+    background: red;
+  }
+  .opaque-navbar {
+    background-color: #464444;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+  }
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+
+/*OPtion three*/
+
+
+/*.image {
+  background-color: #490D40;
+  background: url('../images/portfoliobckgrnd.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  margin-top: -20px;
+  .heading {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+  }
+  p {
+    text-align: center;
+    padding: 20px 60px;
+    .btn {
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      padding: 10px;
+      font-size: 1.2em;
+      &:hover {
+        color: #C57ED3;
+        border-color: #C57ED3;
+      }
+    }
+  }
+}
+
+.navbar {
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+.navbar-default {
+  .navbar-brand {
+    margin-top: 10px;
+    color: white;
+    &:hover {
+      color: #C57ED3;
+      border: 1px solid #C57ED3;
+    }
+  }
+  .navbar-nav {
+    >li {
+      >a {
+        color: white;
+        margin: 10px 5px 5px 5px;
+      }
+      >a:hover, >a:active, >a:focus {
+        color: #C57ED3;
+        border: 1px solid #C57ED3;
+      }
+      >a:visited {
+        color: #C57ED3;
+        text-decoration: none;
+      }
+    } //end li
+    >.active {
+      >a, >a:hover, >a:focus {
+        background-color: transparent;
+        color: #C57ED3;
+      }
+    }
+  } //end .navbar-nav
+  //Collapsed styles
+  .navbar-toggle {
+    border-color: #C57ED3;
+    &:hover, &:focus {
+      background-color: #490D40;
+    }
+    .icon-bar {
+      color: #C57ED3;
+      background-color: #C57ED3;
+    }
+  }
+  .navbar-collapse.collapse.in ul {
+    background-color: #490D40;
+  }
+} //end .navbar-default
+
+/* Solid class attached on scroll past first section
+
+.navbar.solid {
+  background-color: black;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+  .navbar-brand {
+    color: #C57ED3;
+    transition: color 1s ease 0s;
+  }
+  .navbar-nav {
+    >li {
+      >a {
+        color: #C57ED3;
+        transition: color 1s ease 0s;
+      }
+    } //end li
+  } //end .navbar-nav
+}
+
+.navbar-default .navbar-brand {
+  color: #675f5f;
+}*/
+
+
+/*
+.about {
+  background-color: #C57ED3;
+  color: #490D40;
+  height: 600px;
+  text-align: center;
+  margin-top: -20px;
+  h2 {
+    padding-top: 220px;
+  }
+  p {
+    padding: 20px 80px;
+  }
+}*/
