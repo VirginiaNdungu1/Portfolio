@@ -1,0 +1,33 @@
+{% load bootstrap3 %}
+{% load static %}
+
+<!-- title -->
+{% block title %}
+  {% if title %}
+    <title>The Nish Portfolio -
+      {{title}}</title>
+    {%else%}
+    <title>The Nish Portfolio</title>
+  {% endif %}
+{% endblock %}
+
+<!-- styles -->
+{% block styles %}
+  {% bootstrap_css%}
+  <link rel="stylesheet" href="{% static 'css/navbar.css'%}">
+{% endblock %}
+
+<!-- body -->
+{% block body %}
+  {% block navbar%}
+    {% include 'navbar.html' %}
+  {% endblock %}
+  {% block content %}{% endblock %}
+
+{% endblock %}
+
+<!-- scripts -->
+{% block scripts %}
+  {% bootstrap_javascript %}
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+{% endblock %}

@@ -1,0 +1,124 @@
+/*header.landingpage {
+  margin-top: -15%;
+  background-image: url('../images/portfoliobckgrnd.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50%;
+
+}
+
+header.landingpage hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.landingpage h1 {
+  font-size: 2rem;
+}
+
+header.landingpage p {
+  font-weight: 300;
+}*/
+
+
+/*.jumbotron {
+  background-image: url('../images/portfoliobckgrnd.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}*/
+
+h1, h2, h3, h4, h5, h6 {
+  /*color: #5e5e5e;*/
+  /*font-family: tungsten, Arial, sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) bootstrap.min.css:974 .jumbotron {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eee;
+}
+
+.jumbotron .container {
+  text-align: center;
+}
+
+.intro-portfolio {
+  /*text-align: right;*/
+  float: none;
+  margin-left: 50%;
+}
+
+.intro-portfolio h4 {
+  color: #5e5e5e;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.jumbotron p {
+  font-family: 'Open Sans', sans-serif;
+  color: #5e5e5e;
+  font-size: 15px;
+  /*text-align: center;*/
+}
+
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+  font-size: 100%;
+}
+
+.intro-main {
+  /*margin-left: 5%;*/
+  /*margin-top: 5%;*/
+  padding: 8em 0 2.5em;
+  max-width: 600px;
+  display: block;
+}
+
+.intro-main h1 {
+  line-height: 0.85;
+  margin-bottom: 30px;
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 90px;
+}
+
+.intro-main p {
+  margin-bottom: 2em;
+  /*color: #2a2e35;*/
+  /*color: #0a214a;*/
+  /*font-family: Lucida Console;*/
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  /*font-family: tungsten, Arial, sans-serif;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+  /*font-weight: normal;*/
+  /*line-height: 1.6;*/
+  /*font-size: 1.2em;*/
+  font-size: 16.5px;
+}
