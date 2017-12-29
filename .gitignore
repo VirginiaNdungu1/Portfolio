@@ -3,7 +3,4 @@ __pycache__/
 virtual/
 .env
 db.sqlite3
-<<<<<<< HEAD
-=======
 *.pyc
->>>>>>> 6d91047758b8756183c97aea3f8be06280922027
