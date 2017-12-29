@@ -107,6 +107,7 @@ a:hover, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:h
 
 .opaque-navbar.opaque {
   background-color: black;
+  /*background-color: #151515;*/
   opacity: 0.85;
   /*color: white;*/
   height: 60px;
