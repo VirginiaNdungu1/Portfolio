@@ -183,3 +183,26 @@ h2 {
 .project_sections:nth-child(even) .project_txt {
   float: left;
 }
+
+.github_link {
+  margin-right: 30%;
+  margin-top: 15%;
+  background-color: #ed9322;
+  color: white;
+  /*padding: 10px 20px;*/
+}
+
+.deployed_link {
+  margin-top: 15%;
+  background-color: #ed9322;
+  color: white;
+  /*padding: 10px 20px;*/
+}
+
+img {
+  z-index: -1;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
