@@ -19,9 +19,29 @@
           <br>
           We build web applications with Python and Javascript.
         </p>
-
       </div>
       <hr>
+      <div class="projects">
+        {% for project in projects %}
+          <!-- <div class="card"> -->
+          <div class="project_sections">
+            <div class="project_img">
+              <img src="{{project.image.url}}" class="img-responsive" alt="project.title">
+            </div>
+            <div class="project_txt">
+              <h1>{{project.title}}</h1>
+              <p>{{project.description}}</p>
+              <a id="github_link" href="{{project.github_link}}">
+                <button type="button" name="button">Github Link</button>
+              </a>
+              <a id="deployed_link" href="{{project.deployed_link}}">
+                <button type="button" name="button">Deployed Link</button>
+              </a>
+            </div>
+          </div>
+          <!-- </div> -->
+        {% endfor %}
+      </div>
     </div>
   </div>
   <div id="about">
@@ -52,6 +72,7 @@
 {% block scripts %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="{% static 'js/jump.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/new_tab.js' %}"></script>
+  <!-- <script type="text/javascript" src="{% static 'js/jump.js' %}"></script> -->
   <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
 {% endblock %}
