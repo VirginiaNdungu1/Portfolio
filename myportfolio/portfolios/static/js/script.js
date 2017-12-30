@@ -14,7 +14,7 @@ $('a').on('click', function(e) {
   var pageRef = $(this).attr('href');
   // call the function callPage and pass in the pageRef
   callPage(pageRef)
-});ss
+});
 
 function callPage(pageRefInput) {
   // using the core $.ajax() method
