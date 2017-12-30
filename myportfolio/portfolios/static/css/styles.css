@@ -122,3 +122,64 @@ h2 {
   /*font-size: 1.2em;*/
   font-size: 16.5px;
 }
+
+.card {
+  margin-bottom: 10%;
+  max-height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+.project_sections {
+  margin-bottom: 10%;
+  max-height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+.project_img {
+  width: 60%;
+  height: 60%;
+  background-color: white;
+  /*float: right;*/
+  border-radius: 0;
+  box-shadow: 0 0 10px;
+  position: relative;
+  /*margin-right: 5%;*/
+  margin-bottom: 10%;
+}
+
+.project_img img {
+  width: 100%;
+  height: : 100%;
+  object-fit: contain;
+  margin-bottom: 5%;
+}
+
+.project_txt {
+  margin-top: 5%;
+  /*margin-left: 5%;*/
+  width: 30%;
+}
+
+.project_sections:nth-child(odd) .project_img {
+  float: left;
+}
+
+.project_sections:nth-child(odd) .project_txt {
+  float: right;
+}
+
+.project_sections:nth-child(even) .project_img {
+  float: right;
+}
+
+.project_sections:nth-child(even) .project_txt {
+  float: left;
+}
